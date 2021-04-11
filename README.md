@@ -1,3 +1,5 @@
+### How to deploy a new Ethereum smart contract using Hardhat
+
 1) Create a new folder
 
 2) `npm init -y`
