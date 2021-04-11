@@ -15,9 +15,9 @@
 	a) Download Metamask chrome extention -> create there a new crypto wallet / import the old one using 12 secret words combination
 	b) Register at https://infura.io/ -> create new project -> go to project settings -> in 'endpoints' choose 'Rinkeby' -> copy https URL generated below
 	c) Place this URL into 'rinkeby:url' in 'hardhat.config.js'
-	c) Create a Twitter or Facebook account
-	d) In Metamask in the upper right corner choose a Rinkeby testnet and copy the 'Account 1' address
-	e) Post this address on Twitter or Facebook
-	f) Copy the link of the page with the post (or the link of post itself) and put it in https://faucet.rinkeby.io/ and push 'give me Ether' to get some Ether to your crypto wallet
-	g) In Metamask go to 'Account Details' (three dots below your avatar) -> export private key -> copy the key and place it in 'rinkeby:accounts' in 'hardhat.config.js'
-	g) Navigate to 'scripts/' directory and run 'npx hardhat run scripts/deployERC721.js --network rinkeby'
+	d) Create a Twitter or Facebook account
+	e) In Metamask in the upper right corner choose a Rinkeby testnet and copy the 'Account 1' address
+	f) Post this address on Twitter or Facebook
+	g) Copy the link of the page with the post (or the link of post itself) and put it in https://faucet.rinkeby.io/ and push 'give me Ether' to get some Ether to your crypto wallet
+	h) In Metamask go to 'Account Details' (three dots below your avatar) -> export private key -> copy the key and place it in 'rinkeby:accounts' in 'hardhat.config.js'
+	i) Navigate to 'scripts/' directory and run 'npx hardhat run scripts/deployERC721.js --network rinkeby'
