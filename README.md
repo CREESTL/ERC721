@@ -4,7 +4,9 @@
 
 2) `npm init -y`
 
-3) `npm install -D @nomiclabs/hardhat-ether ethers @nomiclabs/hardhat-waffle ethereum-waffle chai`
+3.1) `npm install --save-dev hardhat`
+
+3.2) `npm install -D @nomiclabs/hardhat-ether ethers @nomiclabs/hardhat-waffle ethereum-waffle chai`
 
 4) Clone this repo
 
