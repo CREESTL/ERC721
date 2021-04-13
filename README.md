@@ -4,17 +4,17 @@
 
 2) `npm init -y`
 
-3.1) `npm install --save-dev hardhat`
+3) `npm install --save-dev hardhat`
 
-3.2) `npm install -D @nomiclabs/hardhat-ether ethers @nomiclabs/hardhat-waffle ethereum-waffle chai`
+4) `npm install -D @nomiclabs/hardhat-ether ethers @nomiclabs/hardhat-waffle ethereum-waffle chai`
 
-4) Clone this repo
+5) Clone this repo
 
-5) Replace your `hardhat.config.js` file with cloned `rep_hardhat.config.js`
+6) Replace your `hardhat.config.js` file with cloned `rep_hardhat.config.js`
 
-6) Rename `rep_hardhat.config.js` to `hardhat.config.js`
+7) Rename `rep_hardhat.config.js` to `hardhat.config.js`
 
-7) If you want to deploy on local HardHat testnet:
+8) If you want to deploy on local HardHat testnet:
 
 	- comment/delete lines 
 		"rinkeby: {
@@ -23,7 +23,7 @@
 	  	}"
   	in `hardhat.config.js`
     
-8) If you want to deploy on RinkeBy global testnet:
+9) If you want to deploy on RinkeBy global testnet:
 
 	- Download Metamask (https://metamask.io/) chrome extention -> create there a new crypto wallet / import the old one using 12 secret words combination
   
